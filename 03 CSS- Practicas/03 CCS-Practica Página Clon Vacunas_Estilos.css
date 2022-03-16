@@ -1,0 +1,618 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*Estilo asignado a la seccion inicial en la parte superior de la pagina. Esta contenida la palabra "Vaccination"*/
+.main{
+    text-align: left;
+    font-size: 20px;
+    background: white;
+    /*position: relative;*/
+}
+/*Estilo designado al boton "Hoax" en la parte superior derecha*/
+.hoax{
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    text-align: center;
+    padding: 1px 1px;
+    line-height: 60px;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    background: rgb(52, 83, 206);
+    position: absolute;
+    top: 25px;
+    left: 78%;
+    width: 180px;
+    height: 60px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+/*Estilo para la palabra titular "Vaccination"*/
+h1{
+    color: rgb(52, 83, 206);
+    position: absolute;
+    font-size: 30px;
+    font-weight: 100;
+    top: 15px;
+    left: 9%;
+}
+/*Estilo asignaod al rectangulo en la parte superior derecha*/
+.r1{
+    background: rgb(230, 242, 248);
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    width: 767px;
+    height: 100px;
+}
+/*Estilo y posición de las diferentes palabras en la parte superior de la pagina*/
+.p1{
+    left: 40%;
+}
+.p2{
+    left: 50%;
+}
+.p3{
+    left: 60%;
+}
+.p4{
+    left: 68%;
+}
+
+.main_p_style{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    color: gray;
+    font-weight: 600;
+    font-size: 21px;
+    position: absolute;
+    top: 25px;
+}
+
+/*Estilo para la sección en la parte izquierda de la imagen de la enfermera*/
+.fight{
+    background: white;
+    position: absolute;
+    top: 100px;
+    left: 0%;
+    width: 50%;
+    height: 950px;
+}
+/*Estilo para el triangulo equilatero con giro de 180º*/
+.triangle1{
+    width: 0;
+    height: 0;
+    border-right: 100px solid transparent;
+    border-top: 100px solid rgba(244,246,251);
+    border-left: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    position: absolute;
+    top: 0px;
+    left: 5%;
+}
+/*Estilo para texto*/
+h2{
+    color: rgba(31,62,114);
+    text-align: left;
+    font-size: 80px;
+    font-weight: 800;
+    position: absolute;
+    top: 60px;
+    left: 130px;
+}
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(133, 139, 150);
+    text-align: left;
+    line-height: 2;
+    font-size: 20px;
+    font-weight: 545;
+    position: absolute;
+    top: 320px;
+    left: 130px;
+}
+.triangle2{
+    width: 0;
+    height: 0;
+    border-right: 150px solid rgba(244,246,251);
+    border-top: 150px solid transparent;
+    border-left: 150px solid transparent;
+    border-bottom: 150px solid transparent;
+    position: absolute;
+    top: 41%;
+    left: 460px;
+}
+.icon1{
+    background-color: black;
+    background-image: url("https://i.pinimg.com/564x/e4/f9/ab/e4f9ab0e8bf39b96d2c26e7b3ca31917.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+}
+
+.icons_text{
+    background: white;
+    width: 400px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    line-height: 30px;
+    font-size: 17px;
+    font-weight: 500;
+    color: rgba(31,62,114);
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 55%;
+    left: 17%;
+}
+.icon2{
+    background-color: black;
+    background-image: url("https://i.pinimg.com/564x/60/f0/81/60f081386e67cf1623a3287dd49a9770.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+}
+.icons_text2{
+    background: white;
+    width: 350px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    line-height: 30px;
+    font-size: 25px;
+    font-weight: 500;
+    color: rgba(31,62,114);
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 74%;
+    left: 17%;
+}
+.icon3{
+    background-color: black;
+    background-image: url("https://i.pinimg.com/564x/50/f7/ba/50f7ba9bb70bd8285cf3102272695b42.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+}
+/*estilo para la imagen de la enfermera*/
+.nurse{
+    background: black;
+    background-image: url("https://i.pinimg.com/564x/aa/4f/c1/aa4fc1c65c6df74b5b8fa5d772ab258b.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    width: 50%;
+    height: 950px;
+
+}
+.info_submit{
+    background: white;
+    position: absolute;
+    top: 79%;
+    left: 17%;
+    width: 1017px;
+    height: 170px;
+}
+.info_top{
+    display: flex;
+    text-align: left;
+    background: white;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    width: 980px;
+    height: 40px;
+}
+.info_text_top{
+    text-align: left;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 40px;
+    font-size: 27px;
+    font-weight:normal;
+    color: rgb(144, 145, 148);
+}
+.info_icon1{
+    background-color: black;
+    background-image: url("https://i.pinimg.com/564x/b2/06/d0/b206d05369bf30331fc30b597b6aa476.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+}
+.info_icon2{
+    background-color: black;
+    background-image: url("https://i.pinimg.com/564x/e0/74/2b/e0742bedb095cd7f3a746ee1d2daac0b.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+}
+.info_icon3{
+    background-color: black;
+    background-image: url("https://i.pinimg.com/564x/6f/ef/a7/6fefa7277241161ccf94bcac909c7294.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+}
+.info_bot{
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    background: white;
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    width: 600px;
+    height: 40px;
+}
+.info_text_bot{
+    text-align: left;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 40px;
+    font-size: 27px;
+    font-weight:bold;
+    color: rgba(31,62,114);
+}
+.info_submit_button{
+    background: rgba(41,73,199);
+    position: absolute;
+    top: 30%;
+    left: 80%;
+    width: 170px;
+    height: 60px;
+    border-radius: 10px;
+}
+.info_text_button{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.vaccines_brands{
+    background-image: url("https://i.pinimg.com/564x/10/2b/a7/102ba77d0576e866421d646337578799.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 120px;
+    position: absolute;
+    top: 1080px;
+    left: 0%;
+}
+.why_page{
+    background: white;
+    position: absolute;
+    top: 1200px;
+    left: 0%;
+    width: 100%;
+    height: 900px;
+}
+.text_why1{
+    color: rgba(31,62,114);
+    text-align: left;
+    font-size: 50px;
+    font-weight: 900;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+.text_why2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(133, 139, 150);
+    text-align: left;
+    line-height: 2;
+    font-size: 20px;
+    font-weight: 545;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+.p5{
+    position: absolute;
+    top: 13%;
+    left: 80.4%;
+}
+.info_box{
+    background: white;
+    position: absolute;
+    top: 55%;
+    width: 260px;
+    height: 360px;
+    border-radius: 10px; 
+    border-style: groove;
+    border-left: solid rgb(250, 250, 250);   
+    border-top: solid rgb(250, 250, 250); 
+    border-right: solid rgb(250, 250, 250); 
+    border-bottom: solid rgb(250, 250, 250);  
+}
+.benefits_icons{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+.benefits_title_texts{
+    color: rgba(31,62,114);
+    text-align: left;
+    font-size: 25px;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+.benefits_article_texts{
+    color: rgb(140, 144, 175);
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    text-align: left;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+}
+.preparation_page{
+    background: white;
+    position: absolute;
+    top: 2100px;
+    left: 0%;
+    width: 100%;
+    height: 1200px;
+}
+.civilian{
+    background-image: url(https://i.pinimg.com/564x/e9/58/8d/e9588d7b0d4ac8fc19ed1c99cff1c8de.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 735px;
+    height: 929px;
+    position: absolute;
+    top: 22.5%;
+    left: 0%;
+}
+.triangle3{
+    width: 0;
+    height: 0;
+    border-right: 150px solid transparent;
+    border-top: 150px solid transparent;
+    border-left: 150px solid rgba(244,246,251);
+    border-bottom: 150px solid transparent;
+    position: absolute;
+    top: 42%;
+    left: 460px;
+}
+.p6{
+    position: absolute;
+    top: 10%;
+    left: 0%;
+}
+.text_prep_title{
+    color: rgba(31,62,114);
+    text-align: left;
+    font-size: 48px;
+    font-weight: 900;
+    position: absolute;
+    top: 20%;
+    left: 53%;
+}
+.text_prep_article{
+    color: rgb(162, 164, 179);
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    text-align: left;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 1.6;
+    position: absolute;
+    top: 29%;
+    left: 53%;
+}
+.prep_box{
+    background: white;
+    position: absolute;
+    left: 53%;
+    width: 515px;
+    height: 70px;
+    border-radius: 10px; 
+    border-style: groove;
+    border-left: solid rgb(250, 250, 250);   
+    border-top: solid rgb(250, 250, 250); 
+    border-right: solid rgb(250, 250, 250); 
+    border-bottom: solid rgb(250, 250, 250);  
+}
+.prep_icon{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+}
+.prep_text{
+    color: rgba(31,62,114);
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    text-align: left;
+    line-height: 70px;
+    font-weight: 600;
+    font-size: 20px;
+    position: absolute;
+    left: 18%;
+}
+.prep_icon_special{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+.prep_text_art{
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    text-align: left;
+    line-height: 1.6;
+    font-weight: 500;
+    font-size: 15px;
+    position: absolute;
+    top: 40%;
+    left: 18%;
+}
+.arrow{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 35%;
+    left: 90%;
+}
+.emergency{
+    background: white;
+    position: absolute;
+    top: 3299px;
+    left: 0%;
+    width: 100%;
+    height: 1280px;
+}
+.doctor{
+    background-image: url(https://i.pinimg.com/564x/2e/c7/7f/2ec77fb3d0244b72499306d37c7e5dec.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 43%;
+    height: 700px;
+    position: absolute;
+    top: 33.2%;
+    left: 57%;
+}
+.cont_box{
+    background: white;
+    position: absolute;
+    width: 290px;
+    height: 290px;
+    border-radius: 10px; 
+    border-style: groove;
+    border-left: solid rgb(250, 250, 250);   
+    border-top: solid rgb(250, 250, 250); 
+    border-right: solid rgb(250, 250, 250); 
+    border-bottom: solid rgb(250, 250, 250); 
+}
+.cont_icon{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    border-radius: 10px;
+}
+.cont_title_text{
+    color: rgba(31,62,114);
+    text-align: left;
+    font-size: 30px;
+    font-weight: 900;
+    position: absolute;
+    top: 15%;
+    left: 42%;
+}
+.cont_article_text{
+    color: rgb(162, 164, 179);
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    text-align: left;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.6;
+    position: absolute;
+    top: 28%;
+    left: 42%;
+}
+.cont_button{
+    background-color: rgba(241,245,255);
+    width: 220px;
+    height: 65px;
+    position: absolute;
+    top: 60%;
+    left: 12%;
+    border-radius: 5px;
+}
+.cont_button_text{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(41,73,199);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 65px;
+    position: absolute;
+    left: 25%;
+}
+.pie_pagina{
+    background: rgba(238,243,255);
+    position: absolute;
+    top: 4579px;
+    left: 0%;
+    width: 100%;
+    height: 400px;
+}
+.pie_title_text{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(41,73,199);
+    text-align: left;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 65px;
+    position: absolute;
+    top: 16%;
+    left: 9%;
+}
+.pie_article_text{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    text-align: left;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 1.4;
+    position: absolute;
+    top: 35%;
+    left: 9%;
+}
+.triangle4{
+    width: 0;
+    height: 0;
+    border-right: 170px solid transparent;
+    border-top: 170px solid transparent;
+    border-bottom: 170px solid rgba(226,233,249,255);
+    border-left: 170px solid transparent;
+    position: absolute;
+    top: 19%;
+    left: 69%;
+}

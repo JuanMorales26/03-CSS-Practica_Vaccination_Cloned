@@ -1,0 +1,53 @@
+*{
+        font-family:Arial, Helvetica, sans-serif;
+}
+
+section{
+    height: 900px;
+}
+
+div{
+    height: 900px;
+}
+
+.fondoColor{
+    background-color: #0f6666;
+}
+
+.fondoOpacidad{
+    background-color: #5d0c0c;
+    opacity: .8;
+}
+
+.fondoImagen{
+    background-image: url("https://i.pinimg.com/564x/82/60/77/8260779da9c16d822965d679eef578e9.jpg");
+}
+
+.fondoRepetidoX{
+    background-image: url("https://i.pinimg.com/564x/a4/72/10/a4721040c27c7fb38ef6cddee47960d2.jpg");
+    background-repeat: repeat-x;
+}
+
+.fondoRepetidoY{
+    background-image: url("https://i.pinimg.com/564x/42/ef/13/42ef13b46c33406e9d0022b1daa21625.jpg");
+    background-repeat: repeat-y;
+}
+
+.fondoNoRepetido{
+    background-image: url("https://i.pinimg.com/564x/9c/aa/58/9caa588c2f6236516f82c24549b98e19.jpg");
+    background-repeat: no-repeat;
+}
+
+.fondoPosicion{
+    background-image: url("https://i.pinimg.com/564x/4a/7d/0f/4a7d0f966465163c086be717a239a1cb.jpg");
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.fondoCompleto{
+    background-image: url("https://i.pinimg.com/564x/e3/40/77/e34077b21efa9569bb989b790068012b.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
